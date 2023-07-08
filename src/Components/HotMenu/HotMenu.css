@@ -1,0 +1,17 @@
+.HotMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HotLink{
+    text-decoration: none;
+    color: rgb(59,59,59);
+    margin:1vmax;
+    padding: 0.5vmax 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.HotLink:hover{
+    text-decoration: none;
+    color:orangered;
+    border-bottom: 1px solid orangered;
+}

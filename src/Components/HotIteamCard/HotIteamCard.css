@@ -1,0 +1,29 @@
+.hotIteamCard{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: white;
+width:31% ;
+margin: 0.7vmax;
+transition: all 0.5s;
+cursor: pointer;
+}
+.hotIteamCard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.363);
+
+
+}
+.hotIteamCard img{
+    width: 70%;
+}
+.hotIteamCard p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:rgb(85,83,83)
+}
+.hotIteamCard span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: -1vmax 0 1vmax 0;
+    color:orangered
+}
+
